@@ -1,0 +1,27 @@
+{
+  "lmsApp": {
+    "courses": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Courses",
+        "createOrEditLabel": "Create or edit a Courses",
+        "notFound": "No Courses found"
+      },
+      "created": "A new Courses is created with identifier {{ param }}",
+      "updated": "A Courses is updated with identifier {{ param }}",
+      "deleted": "A Courses is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Courses {{ id }}?"
+      },
+      "detail": {
+        "title": "Courses"
+      },
+      "id": "ID",
+      "course_name": "Course Name",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "student": "Student"
+    }
+  }
+}

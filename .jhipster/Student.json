@@ -1,0 +1,23 @@
+{
+  "annotations": {
+    "changelogDate": "20240704090038"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "reg_no",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "student_name",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Student",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}

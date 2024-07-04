@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20240704094122"
+  },
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "course_name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "start_date",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "end_date",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Courses",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "student_name",
+      "otherEntityName": "student",
+      "relationshipName": "student",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one",
+      "relationshipValidateRules": []
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
